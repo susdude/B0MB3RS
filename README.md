@@ -1,19 +1,11 @@
-# NarutoB0mb3r
-Простой бомбер с открытым кодом!
-
-Привет!
-
-Это инструкция как скачать NarutoBomber
-Поехали
+# BruhB0mb3r
 
 pkg update
 
 pkg upgrade
 
-git clone *эту ссылку бомбер*
+git clone https://github.com/susdude/BRUHBOMBER
 
 bash install.sh
 
-python NarutoB0mb3r.py
-
-Или просто введи NarutoB0mb3r
+python BruhB0mb3r.py
