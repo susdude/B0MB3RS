@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo "--------------------"
-echo "|     Кто ты ?     |"
+echo "|    Тип еблана? ?     |"
 echo "|------------------|"
 echo "| 1. Termux        |"
 echo "| 2. Другой Unix   |"
@@ -25,12 +25,12 @@ else
 	then
 		if [ "$(whoami)" != 'root' ];
 		then
-			echo "У вас нет прав. Запустите install.sh с root правами (sudo sh ~/spymer/install.sh)"
+			echo "У вас нет прав, вы феменистка. Запустите install.sh с root правами (sudo sh ~/spymer/install.sh)"
 			exit
 		else
 			apt install python3 python3-pip dos2unix
 			pip3 install requests colorama proxyscrape
-			cp ~/NarutoB0mb3r/NarutoB0mb3r.py $PREFIX/bin/spymer
+			cp ~/BRUHBOMBER/BruhB0mb3r.py $PREFIX/bin/spymer
 			dos2unix $RPEFIX/bin/spymer
 			chmod 777 $RPEFIX/bin/spymer
 			chmod -R 777 ~/spymer
@@ -50,7 +50,7 @@ else
 			chmod 777 /usr/bin/spymer
 			spymer
 		else
-			echo "Некорректный ввод"
+			echo "Тупой блять иди нахуй"
 		fi
 	fi
 fi
