@@ -77,7 +77,7 @@ def MAIN():
 					info=Back.RED+"\nВерсия устарела и нуждается в обновлении!"+Style.RESET_ALL
 
 			def logo():
-				logo = r+"NarutoB0mb3r  "+s+"by Mer4un"+r+" ░░░\n"+y+" [ Смс Бомбер ]\n [ Dev: Mer4un ~ prod: samurai.editPython]"+s
+				logo = r+"BRUHBOMBER  "+s+"by SussyBakaSimulator"+r+" ░░░\n"+y+" [ Смс Бомбер ]\n [ Remade: SussyBakaSimulator ~ prod: samurai.editPython]"+s
 				print(logo)
 
 			def updateproxy():
