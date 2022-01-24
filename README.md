@@ -1,4 +1,4 @@
-# BruhB0mb3r
+# BRUHBOMBER
 
 pkg update
 
@@ -8,4 +8,4 @@ git clone https://github.com/susdude/BRUHBOMBER
 
 bash install.sh
 
-python BruhB0mb3r.py
+python BRUHBOMBER.py
